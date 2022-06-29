@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-4{
+    height: 200px;
+    line-height: 200px;
+
+    text-align: center;
+    
+
+}
+
+.col-md-4  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.mybio{
+ background-color: #ddd;
+}
+
+.mybio:hover,
+.myphoto:hover,
+.myeducation:hover,
+.contactme:hover,
+.hobbies:hover
+{
+    background-color: rgb(236, 109, 109);
+   }
+
+.myphoto{
+    background-color: rgb(0, 140, 255);
+
+}
+
+.myeducation{
+    background-color: rgb(177, 179, 180);
+
+}
+
+.contactme{
+    background-color: rgb(243, 168, 138);
+
+}
+
+.hobbies{
+    background-color: rgb(160, 175, 211);
+
+}
